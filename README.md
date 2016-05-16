@@ -1,23 +1,26 @@
-# Static HTML and assets generator.
+# Static HTML and assets generator
 
-`gulp` to build.
+`gulp` to build
 
-`gulp serve` to serve.
+`gulp watch` to build on file changes
 
-`gulp clean` to remove the build folder.
+`gulp serve` to serve
+
+`gulp clean` to remove the build folder
 
 ### JavaScript
 
-Files in `./js` uglyfied and babeled, with source maps, and placed in `./build`.
+Files in `./js` uglyfied and babeled, with source maps, and placed in `./build`
 
 ### Less/CSS
 
-Files in `./less` converted to css and placed in `./build`. Files in `./less/include` will be ingored.
+Files in `./less` converted to css and placed in `./build`  
+Files in `./less/include` will be ingored.
 
 ### Jade
 
-Files in `./jade` converted to html and placed in `./build`.
+Files in `./jade` converted to html and placed in `./build`
 
 ### Copy
 
-Files and folders in `./copy` will be copied into `./build`.
+Files and folders in `./copy` will be copied into `./build`
