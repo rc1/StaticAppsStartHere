@@ -35,7 +35,7 @@ gulp.task( 'clean', function () {
 
 gulp.task( 'jade', function () {
     return gulp.src( './jade/*.jade' )
-        .pipe( jade( { pretty: false } ) )
+        .pipe( jade( { pretty: true } ) )
         .pipe( gulp.dest( './build' ) );
 });
 
